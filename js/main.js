@@ -1,6 +1,6 @@
 const $form = document.querySelector('#carta-a-santa');
 
-const nombre = $form.nombre;
+const nombre = $form.nombre.value;
 //nombre = document.querySelector('[name=nombre]').value;
 //nombre = document.querySelector('#nombre').value;
 const ciudad = $form.ciudad.value;
